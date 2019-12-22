@@ -6,6 +6,9 @@ Run `docker build -t dockerangular .`
 
 ## Docker Run
 
-Run `docker run -it -p 8000:80 --name dockerangular dockerangular`
+Run `docker-compose up`
 
-Navigate to `http://localhost:8000/`
+Navigate to `http://localhost:8000/` on your browser
+
+## Docker Stop Run
+Run `docker-compose down`
